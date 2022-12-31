@@ -17,7 +17,7 @@ const scaleVariants= {
 
 const Header = () => {
   return (
-    <div className="app__header app__flex">
+    <div id="home" className="app__header app__flex">
       <motion.div
         whileInView={{ x: [-100, 0], oppacity: [0, 1] }}
         transition={{ duration: .75 }}
