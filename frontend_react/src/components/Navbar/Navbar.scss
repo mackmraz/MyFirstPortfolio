@@ -20,8 +20,8 @@
     align-items:center;
 
     img{
-        width: 90px;
-        height: 20px;
+        width: 35px;
+        height: 35px;
 
         @media screen and (min-width: 2000px) {
             width: 180px;
@@ -119,8 +119,8 @@
         box-shadow: 0 0 20px rgba(168, 168, 168, 0.15);
 
         svg {
-            width: 35px;
-            height: 35px;
+            width: 10px;
+            height: 100px;
             color: var(--secondary-color);
             margin: 0.5rem 1rem;
         }
