@@ -78,10 +78,10 @@ const Skills = () => {
                       {work.desc}
                     </ReactTooltip>
                   </>
-              ))}
+                ))}
+              </motion.div>
             </motion.div>
-          </motion.div>
-         ))}
+          ))}
         </div>
       </div>
     </>
@@ -91,5 +91,5 @@ const Skills = () => {
 export default AppWrap(
   MotionWrap(Skills, 'app__skills'),
   'skills',
-  "app__whitebg"
-  );
+  'app__whitebg',
+);
