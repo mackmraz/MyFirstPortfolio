@@ -12,7 +12,7 @@ function App() {
       <About />
       <Work />
       <Skills />
-      <Testimonial />
+      {/* <Testimonial /> Currently not used, has some bugs that needs worked on */}
       <Footer />
     </div>
   )
